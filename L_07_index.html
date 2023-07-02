@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全局元素</title>
+</head>
+<body>
+    <h2>可编辑列表</h2>
+    <ul contenteditable>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+    <h2>可编辑列表1</h2>
+    <ul hidden="true">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+    <!-- 拼写检查 -->
+    <input type="text" spellcheck="true">
+    <!--  -->
+    <a href="#" tabindex="1">hello</a>
+    <a href="#" tabindex="3">hello</a>
+    <a href="#" tabindex="2">hello</a>
+    <ul tabindex="-1">
+        <!-- -1 不能选中但是预留 -->
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+    </ul>
+</body>
+</html>

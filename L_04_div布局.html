@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>布局</title>
+    <style type="text/css">
+        body{
+            /* 消除边框 */
+            margin: 0px;
+        }
+        div#container{
+            width: 100%;
+            height: 950px;
+            background-color: gray;
+        }
+        div#header{
+            width: 100%;
+            height: 10%;
+            background-color: aqua;
+        }
+        div#content_menu{
+            width: 30%;
+            height: 80%;
+            background-color: burlywood;
+            float: left;
+        }
+        div#content_body{
+            width: 70%;
+            height: 80%;
+            background-color: yellow;
+            /* 添加浮动 */
+            float: left;
+        }
+        div#footing{
+            width: 100%;
+            height: 10%;
+            background-color: chocolate;
+            /* 上面设置了浮动这里要清除浮动 */
+            clear: both;
+        }
+        /* 注:div可删除 */
+    </style>
+</head>
+<body>
+    <!-- div元素布局 -->
+    <div id="container">
+        <div id="header">头部</div>
+        <div id="content_menu">菜单</div>
+        <div id="content_body">内容主体</div>
+        <div id="footing">底部</div>
+    </div>
+</body>
+</html>
