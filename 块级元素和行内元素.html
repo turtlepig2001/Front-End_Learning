@@ -1,0 +1,71 @@
+<!--
+ * @Date: 2023-07-06 01:09:41
+ * @LastEditors: turtlepig
+ * @LastEditTime: 2023-07-11 00:01:34
+-->
+<!-- <!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <marquee loop="0" bgcolor="green">
+            abcdefg
+            <input type="password">
+        </marquee>
+    </body>
+</html> -->
+
+<!-- 在vscode中直接使用！+回车即可实现标准版的html结构 -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>块级元素和行内元素</title>
+</head>
+<body>
+    <!-- 块级元素 独占一行 -->
+    <marquee>abc</marquee>
+    <marquee>abc</marquee>
+    <h1>标题1</h1>
+    <h1>标题1</h1>
+    <p>abc</p>
+    <p>abc</p>
+    <div>def</div>
+    <div>def</div>
+
+    <!-- 行内元素 不独占 -->
+    <input type="text">
+    <input type="text">
+    <span>行内元素</span>
+    <span>行内元素</span>
+
+    <!-- 块级元素可以写 行内元素 也可以写块级元素 几乎都可以 -->
+    <div>
+        <span>abc</span>
+        <input type="text">
+        <div>abc</div>
+    </div>
+
+    <!-- 行内元素中能写行内元素 但不能写块级元素 -->
+    <!-- 正常案例 -->
+    <span>
+        <span>abc</span>
+        <input type="text">
+        <span>def</span>
+    </span>
+
+    <!-- 错误案例 -->
+    <!-- <span>
+        <span>abc</span>
+        <input type="text">
+        <span>def</span>
+        <div>abc</div>
+    </span> -->
+    
+    <!-- 特殊规则1 h1-h6不能相互嵌套 -->
+
+    <!-- 特殊规则2 p标签中不能写块元素 -->
+</body>
+</html>
