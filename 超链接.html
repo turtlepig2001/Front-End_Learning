@@ -1,0 +1,38 @@
+<!--
+ * @Date: 2023-07-12 00:45:08
+ * @LastEditors: turtlepig
+ * @LastEditTime: 2023-07-12 01:10:10
+ * @Description: Do not edit
+-->
+<!DOCTYPE html>
+<html lang="ch-ZN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>超链接</title>
+</head>
+<body>
+    <!-- href 表示要跳转的页面 -->
+    <!-- _blank 表示在一个其他的空白页签打开  _self表示在新页签打开 self默认值 -->
+    <a href="https://www.google.com/" target="_blank"> Google一下！ </a>
+
+    <!-- 也可以跳转到本地的一些网页 -->
+    <a href="./L_04_div布局.html">学习div布局</a>
+
+    <!-- 也可以跳转文件 -->
+    <!-- 浏览器支持jpg mp4 pdf gif等格式的文件 -->
+    <a href="xjr的自拍.jpg">看帅哥</a>
+    <a href="xiaodianying.mp4">看电影</a>
+    <a href="abc.gif">看动图</a>
+    <a href="deep learning.pdf">搞会深度学习</a> <!-- 文件都不存在只为了说明 -->
+
+    <!-- 不支持的文件格式会触发下载 -->
+    <a href="document.zip">download document</a>
+
+    <!-- 可以触发强制下载 通过设置download属性 如果属性里有值会按照设置的值来命名文件-->
+    <a href="xiaodianying.mp4" download>下载电影</a>
+    <a href="xiaodianying.mp4" download="电影片段.mp4">下载电影</a>
+
+    <!-- 跳转锚点 -->
+</body>
+</html>
