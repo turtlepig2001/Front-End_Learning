@@ -1,7 +1,7 @@
 <!--
  * @Date: 2023-07-12 00:45:08
  * @LastEditors: turtlepig
- * @LastEditTime: 2023-07-12 01:10:10
+ * @LastEditTime: 2023-07-12 12:52:34
  * @Description: Do not edit
 -->
 <!DOCTYPE html>
@@ -33,6 +33,31 @@
     <a href="xiaodianying.mp4" download>下载电影</a>
     <a href="xiaodianying.mp4" download="电影片段.mp4">下载电影</a>
 
-    <!-- 跳转锚点 -->
+    <!-- 利用超链接实现跳转锚点 -->
+    <!-- 有两种跳转方式 一种是使用不带内容使用name属性的a标签 一种是p标签配合通用的id属性实现跳转 推荐使用的是第二种-->
+    <a href="#htl">看灰太狼</a>
+    <a href="#atm">看奥特曼</a>
+    
+    <p>我是一只羊</p>
+    <img src="./image/喜羊羊.jpg" alt="喜羊羊">
+    
+    <a name="htl"></a>
+    <p>我是一只狼</p>
+    <img src="./image/灰太狼.jpg" alt="灰太狼">
+    
+    <p id="atm">我是一只奥特曼</p>
+    <img src="./image/奥特曼.jpg" alt="奥特曼">
+    
+    <p>我是一只怪兽</p>
+    <img src="./image/怪兽.jpg" alt="怪兽">
+
+    <p>整体的介绍完了，想跳转回去？</p>
+    <a href="#">回到顶部</a>
+    <a href="">刷新页面</a>
+    
+    <!-- 唤起指定应用 -->
+    <a href="tel:10086">电话联系</a>
+    <a href="mailto:123456@163.com">邮件联系</a>
+    <a href="sms:10010">短信联系</a>
 </body>
 </html>

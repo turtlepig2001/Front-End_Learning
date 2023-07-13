@@ -1,0 +1,59 @@
+<!--
+ * @Date: 2023-07-13 01:14:38
+ * @LastEditors: turtlepig
+ * @LastEditTime: 2023-07-14 00:58:24
+ * @Description: Do not edit
+-->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+</head>
+<body>
+    <!-- 表格标题 caption 表格头部thead 表格主体tbody 表格脚注tfoot -->
+    <!-- border属性可以加边框 单位px -->
+    <table border="1" width="500" height="400" cellspacing="0"> <!-- 调整高度头部和脚注不变 -->
+        <caption>学生信息</caption>
+        <!--表头 tr表示行 th表示单元格-->
+        <!-- thead 可以使用height属性 align水平对齐方式 valign垂直方向 -->
+        <thead height="50" align="center" valign="middle">
+            <tr>
+                <th>姓名</th>
+                <th>性别</th>
+                <th>年龄</th>
+                <th>民族</th>
+                <th>政治面貌</th>
+            </tr>
+        </thead>
+        <!-- 主体 tr表示行 用td表示单元格 -->
+        <tbody height="380" align="center" valign="middle">
+            <tr height="50" align="center" valign="middle">
+                <td>张三</td>
+                <td>男</td>
+                <td>18</td>
+                <td>汉族</td>
+                <td>团员</td>
+            </tr>
+            <tr>
+                <td>李四</td>
+                <td>女</td>
+                <td>20</td>
+                <td>满族</td>
+                <td>群众</td>
+            </tr>
+        </tbody>
+        <!-- 脚注中的单元格同样使用td -->
+        <tfoot height="50" align="center" valign="middle">
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>共计：4人</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

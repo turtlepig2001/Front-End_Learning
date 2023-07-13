@@ -1,0 +1,66 @@
+<!--
+ * @Date: 2023-07-13 00:29:20
+ * @LastEditors: turtlepig
+ * @LastEditTime: 2023-07-13 01:14:14
+ * @Description: Do not edit
+-->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list</title>
+</head>
+<body>
+    <h2>要把大象放冰箱拢共分几步？</h2>
+    <!-- 有序列表 -->
+    <ol>
+        <!-- 列表项 list item -->
+        <li>把冰箱门打开</li>
+        <li>把大象放进去</li>
+        <li>把冰箱门关上</li>
+    </ol>
+
+    <h2>我想去的城市</h2>
+    <!-- 无序列表 -->
+    <ul>
+        <li>重庆</li>
+        <li>成都</li>
+        <li>上海</li>
+        <li>武汉</li>
+    </ul>
+
+    <h2>如何更好地学习</h2>
+    <!-- 自定义列表 definition list -->
+    <dl>
+        <dt>做好笔记</dt> <!-- title 术语名称 -->
+        <dd>笔记是以后复习的一个抓手</dd><!-- 可以有多个描述 -->
+        <dt>多加联系</dt>
+        <dd>多写代码才能印象深刻</dd>
+        <dt>别怕出错</dt>
+        <dd>出错是正常的</dd>
+    </dl>
+
+    <!-- 一些注意事项 -->
+    <!-- 列表也可以进行嵌套 -->
+    <h2>我想去的城市</h2>
+    <!-- 无序列表 -->
+    <ul>
+        <li>重庆</li>
+        <li>成都</li>
+        <li><!-- 一层 -->
+            <span>上海</span>
+            <ul>
+                <li>外滩</li><!-- 两层 -->
+                <li>
+                    <span>东方明珠</span>
+                    <ul>
+                        <li>xxxx</li><!-- 三层 -->
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>武汉</li>
+    </ul>
+</body>
+</html>
