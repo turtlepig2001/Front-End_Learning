@@ -1,0 +1,28 @@
+<!--
+ * @Date: 2023-07-16 00:21:05
+ * @LastEditors: turtlepig
+ * @LastEditTime: 2023-07-16 00:47:33
+ * @Description: Do not edit
+-->
+<!DOCTYPE html>
+<html lang="ch-ZN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表单的基本结构</title>
+</head>
+<!-- 表单是网页中的交互区域 -->
+<body>
+    <!-- 表单标签form -->
+    <!-- 加s的原因：search 返回的搜索结果 -->
+    <form action="https://www.baidu.com/s">
+        <input type="text" name="wd"> <!-- 输入框 wd是固定的 -->
+        <button>去百度搜索</button> <!-- 按钮 -->
+    </form>
+    <hr> <!-- 后面加什么取决于该网站的后端规定 -->
+    <form action="https://search.jd.com/search" target="_blank" method="dialog"> <!-- form也可以写target属性 method属性表示请求方法-->
+        <input type="text" name="keyword"> <!-- 输入框 wd是固定的 -->
+        <button>去京东搜索</button> <!-- 按钮 -->
+    </form>
+</body>
+</html>

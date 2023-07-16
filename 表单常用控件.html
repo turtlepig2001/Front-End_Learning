@@ -1,0 +1,92 @@
+<!--
+ * @Date: 2023-07-16 00:52:12
+ * @LastEditors: turtlepig
+ * @LastEditTime: 2023-07-16 23:38:05
+ * @Description: Do not edit
+-->
+<!DOCTYPE html>
+<html lang="ch-ZN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表单常用控件</title>
+</head>
+<body>
+    <form action="https://search.jd.com/search">
+       <fieldset>
+            <!-- legend只是描述信息 -->
+            <legend>主要信息</legend>
+            <!-- value控制输入框的默认值 maxlength表示最大输入字符长度 -->
+            <!-- 用label获取焦点 对应id做关联 -->
+            <label for="zhanghu">账户:</label> 
+            
+            <input id="zhanghu" type="text" name="account" value="zhangsan" maxlength="100">
+            <br>
+
+            <label >
+            密码：<input type="password" name="pwd" maxlength="6">
+            </label>
+        
+        <br>
+
+        性别：
+        <!-- 使用单选框 设置name属性划分到一组中 单选框要写value-->
+        <input type="radio" name="gender" value="male" id="nan">
+        <label for="nan">男</label>
+        <input type="radio" name="gender" value="female" checked id="nv">
+        <label for="nv">女</label>
+        <!-- checked 被选中的即默认值 -->
+       </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>附加信息</legend>
+            <!-- 复选框部分 -->
+            爱好：
+            <!-- 不写name 值带不走 -->
+            <input type="checkbox" name="hobby" value="smoke" >抽烟
+            <input type="checkbox" name="hobby" value="drink" >喝酒
+            <input type="checkbox" name="hobby" value="perm" >烫头
+            <!-- <button>确认</button> -->
+            <br>
+
+            其他:
+            <!-- 文本域 -->
+            <textarea name="other" id="" cols="23" rows="3"></textarea>
+
+            <br>
+
+            <!-- 下拉框 -->
+            籍贯
+            <select name="place" > 
+                <option value="冀">河北省</option>
+                <!-- disabled禁用表单控件 -->
+                <option value="豫" disabled>河南省</option>
+                <option value="晋" selected>山西省</option>
+                <option value="鲁">山东省</option>
+            </select>
+        </fieldset>
+
+        <br>
+        <!-- 隐藏域 一种安全方式-->
+        <input type="hidden" name="from" value="123">
+         
+        
+        <!-- 确认按钮 第一种 -->
+        <!-- <button>确认</button> -->
+
+        <!-- 确认按钮 第二种 summit输入框不写name属性-->
+        <input type="submit" value="确认" >
+
+        <!-- 重置按钮 第一种-->
+        <!-- <button type="reset">重置</button> -->
+
+        <!-- 重置按钮 第二种 -->
+        <input type="reset" value="点我重置">
+
+        <!-- 普通按钮 重置\确认都不是普通按钮 button不写type值默认是summit-->
+        <button type="button">检测用户是否被注册</button>
+        <!-- <input type="button" value="检查用户是否已被注册"> 第二种方式 -->
+    </form>
+</body>
+</html>
