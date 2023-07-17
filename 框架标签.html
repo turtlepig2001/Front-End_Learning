@@ -1,0 +1,36 @@
+<!--
+ * @Date: 2023-07-16 23:46:47
+ * @LastEditors: turtlepig
+ * @LastEditTime: 2023-07-17 00:11:24
+ * @Description: Do not edit
+-->
+<!DOCTYPE html>
+<html lang="ch-ZN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>框架标签</title>
+</head>
+<body>
+    <!-- 利用iframe -->
+    <!-- frameborder 只有0和1两个选项代表有无边框 -->
+    <iframe src="https://www.taobao.com" frameborder="1" width="900" height="300"></iframe>
+
+    <!-- 可以嵌入文件等其他内容 -->
+
+    <!-- 与超链接target属性配合使用 -->
+    <a href="https://www.taobao.com" target="tt">点我去购物</a>
+    <br>
+    <iframe name="tt" frameborder="0"></iframe>
+
+    <!-- 也可以与表单的target配合使用 -->
+
+    <form action="https://so.toutiao.com/search" target="container">
+        <input type="text" name="keyword">
+        <input type="submit" value="搜索">
+    </form>
+
+    <iframe name="container" frameborder="0" width="900" height="300"></iframe>
+
+</body>
+</html>
