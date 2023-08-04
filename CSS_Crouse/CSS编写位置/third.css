@@ -1,0 +1,18 @@
+h1{
+    color: green;
+    font-size: 40px;
+}
+
+h2{
+    color:red;
+    font-size: 30px;
+}
+
+p{
+    color: aqua;
+    font-size: 25px;
+}
+img{
+    width: 200px;
+    /* px一定要写 */
+}
