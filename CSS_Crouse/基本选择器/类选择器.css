@@ -1,0 +1,14 @@
+/* 选中所有类名为speak的 */
+.speak{
+    color: aqua;
+}
+
+.answer{
+    color: brown;
+}
+
+.big{
+    font-size: 30px;
+}
+
+/* 不同标签同分类的也可以进行修改 */

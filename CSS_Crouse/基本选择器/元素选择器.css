@@ -1,0 +1,20 @@
+h2 {
+    color: chocolate;
+}
+h3 {
+    color:green;
+}
+
+p {
+    color:red;
+}
+
+h1 {
+    color: aquamarine;
+    font-size: 50px;
+}
+
+/* 
+    面向所有的同类元素
+    不能差异化设置样式
+*/
