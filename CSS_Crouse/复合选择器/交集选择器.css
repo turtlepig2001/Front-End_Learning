@@ -1,0 +1,17 @@
+.rich {
+    color: gold;
+}
+
+.beauty {
+    color: blue;
+}
+
+p.beauty#wc {
+    color: green;
+}
+/* id一般不参与交集 */
+/* 紧紧连在一起 */
+
+.rich.beauty {
+    color: orange;
+}
