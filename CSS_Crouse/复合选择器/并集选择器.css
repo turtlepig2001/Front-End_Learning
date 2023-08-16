@@ -1,0 +1,28 @@
+.rich {
+    color: gold;
+    
+}
+
+.beauty {
+    color: blue;
+}
+
+.dog {
+    color: green;
+}
+/* id一般不参与交集 */
+/* 紧紧连在一起 */
+
+.pig {
+    color: orange;
+}
+
+#suxi,
+.rich,
+.beauty,
+.dog,
+.pig {   /* 最后一个不加逗号 */
+    font-size: 40px;
+    background-color: brown;
+    width: 160px;
+}
