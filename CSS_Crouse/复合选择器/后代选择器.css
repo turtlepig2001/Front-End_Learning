@@ -1,0 +1,22 @@
+ul li {
+    color: aqua;
+}
+ol li {
+    color: green;
+}
+
+ul li a {
+    color: brown;
+}
+
+ol li a {
+    color: chocolate;
+}
+
+.subject li.front-end {
+    color: red;
+}
+
+.subject div.front-end {
+    color: gray;
+}
