@@ -1,0 +1,8 @@
+a:link {
+    color: orange;
+}
+/* 选中没有访问过的a元素 */
+a:visited {
+    color: gray;
+}
+/* 选中访问过的a元素 */

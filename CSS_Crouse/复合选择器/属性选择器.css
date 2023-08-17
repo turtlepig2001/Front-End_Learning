@@ -1,0 +1,27 @@
+/* 属性选择器的物种用法，对于class id这些属性一般不使用属性选择器 */
+
+/* 方式1 将所有包含title属性的元素选中
+[title] {
+    color: red;
+} */
+
+/* 方式2 特定属性值的选中
+[title="guigu3"] {
+    color: red;
+} */
+
+/* 方式3 特定属性值满足 以xxx开头的 */
+
+/* [title^="at"]{
+    color: red;
+} */
+
+/* 方式4 特定属性值满足 以xxx结尾的 */
+/* [title$="2"] {
+    color: red;
+} */
+
+/* 方式5 特定属性任意包含 xxx的 */
+[title*="u"] {
+    color: red;
+}
