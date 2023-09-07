@@ -1,0 +1,37 @@
+a:link {
+    color: orange;
+}
+/* 选中没有访问过的a元素 */
+a:visited {
+    color: gray;
+}
+/* 选中访问过的a元素 */
+
+a:hover {
+    color: skyblue;
+}
+/* 选中的是鼠标悬浮状态的a元素 */
+
+a:active {
+    color: green;
+}
+/* 选中激活状态的a元素 */
+
+/* 顺序很重要 点击时同时具有link hover active状态 */
+
+/* 后两者所以元素都有这两种状态 */
+
+span:hover { 
+    color: cadetblue;
+}
+
+span:active {
+    color: brown;
+}
+
+input:focus {
+    color: orange;
+    background-color: green;
+}
+
+/* focus只有表单类才可以使用 */

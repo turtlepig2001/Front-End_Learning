@@ -16,6 +16,7 @@ ol li a {
 .subject li.front-end {
     color: red;
 }
+/* 只让特定的地方变红 */
 
 .subject div.front-end {
     color: gray;
