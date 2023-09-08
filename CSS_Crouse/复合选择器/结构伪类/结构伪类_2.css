@@ -1,0 +1,25 @@
+/* 最后一个孩子 */
+div>p:last-child {
+    color: brown;
+}
+
+/* 第n个孩子 由括号内的数字决定 */
+/* 括号内的数字应从1开始 写n是选中所有 */
+/* div>p:nth-child(3) {  
+    color: aqua;
+} */
+
+/* 括号内可写公式：an+b形式
+    2n/even 偶数
+    2n+1/odd 基数
+    -n+5 前五个
+ */
+
+ /* 对所有同类型兄弟计算的 */
+ div>p:first-of-type {
+    color: red;
+}
+
+div>p:nth-of-type(3) {
+    color: aqua;
+}

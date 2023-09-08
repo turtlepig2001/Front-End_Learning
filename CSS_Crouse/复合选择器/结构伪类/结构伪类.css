@@ -1,0 +1,17 @@
+/* 选中div第一个儿子p|first-child对所有兄弟而言 也就是说包括结构2的span标签 */
+/* 结构1 */
+/* div>p:first-child {
+    color: red;
+} */
+
+/* 结构2 */
+/* p只要是div后代即可 p的父级是谁无所谓，但p必须是其父亲的第一个元素 */
+/* div p:first-child {
+    color: red;
+} */
+
+/* 结构3 */
+
+p:first-child {
+    color:blue
+}

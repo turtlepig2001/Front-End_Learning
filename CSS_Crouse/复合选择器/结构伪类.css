@@ -1,5 +1,0 @@
-/* 选中div第一个儿子p */
-/* 结构1 */
-div>p:first-child {
-    color: red;
-}
