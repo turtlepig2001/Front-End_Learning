@@ -1,0 +1,13 @@
+/* 排除一定范围 */
+
+div>p:not(.fail) {
+    color: red;
+}
+
+div>p:not([title^="你要加油啊"]){
+    color: aqua;
+}
+
+div>p:not(:first-child){
+    color: green;
+}

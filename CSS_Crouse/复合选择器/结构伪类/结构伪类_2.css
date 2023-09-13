@@ -23,3 +23,9 @@ div>p:last-child {
 div>p:nth-of-type(3) {
     color: aqua;
 }
+
+
+/* 选中根元素 */
+:root{
+    background-color: grey;
+}
